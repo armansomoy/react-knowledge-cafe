@@ -1,0 +1,53 @@
+[
+    {
+      "id": "1",
+      "cover": "https://source.unsplash.com/random/800x600",
+      "title": "The Power of Positive Thinking",
+      "author": "John Smith",
+      "author_img": "https://source.unsplash.com/user/johnsmith/100x100",
+      "posted_date": "2024-03-01",
+      "reading_times": 2356,
+      "hashtags": ["positive", "mindset", "inspiration"]
+    },
+    {
+      "id": "2",
+      "cover": "https://source.unsplash.com/random/800x600",
+      "title": "Exploring the World of Artificial Intelligence",
+      "author": "Alice Johnson",
+      "author_img": "https://source.unsplash.com/user/alicejohnson/100x100",
+      "posted_date": "2024-02-28",
+      "reading_times": 9,
+      "hashtags": ["AI", "technology", "future"]
+    },
+    {
+      "id": "3",
+      "cover": "https://source.unsplash.com/random/800x600",
+      "title": "Healthy Eating Habits for a Better Life",
+      "author": "Emily Brown",
+      "author_img": "https://source.unsplash.com/user/emilybrown/100x100",
+      "posted_date": "2024-02-29",
+      "reading_times": 4,
+      "hashtags": ["health", "nutrition", "wellness"]
+    },
+    {
+      "id": "4",
+      "cover": "https://source.unsplash.com/random/800x600",
+      "title": "Tips for Successful Remote Work",
+      "author": "Michael Lee",
+      "author_img": "https://source.unsplash.com/user/michaellee/100x100",
+      "posted_date": "2024-03-02",
+      "reading_times": 6,
+      "hashtags": ["remote", "work", "productivity"]
+    },
+    {
+      "id": "5",
+      "cover": "https://source.unsplash.com/random/800x600",
+      "title": "Mastering the Art of Photography",
+      "author": "Sarah Johnson",
+      "author_img": "https://source.unsplash.com/user/sarahjohnson/100x100",
+      "posted_date": "2024-03-03",
+      "reading_times": 7,
+      "hashtags": ["photography", "creativity", "art"]
+    }
+  ]
+  
