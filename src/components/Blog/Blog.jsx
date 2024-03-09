@@ -4,6 +4,7 @@ import { FaRegBookmark } from "react-icons/fa6";
 
 const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
   const {
+    id,
     title,
     hashtags,
     reading_times,
@@ -14,7 +15,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
   } = blog;
 
   return (
-    <div className="mb-12 border-blue-300">
+    <div className="mb-12 bg-sky-50 p-3">
       <img className="h-72 w-full mb-2" src={cover} alt="Cover Picture" />
       <div className="flex justify-between">
         <div className="flex p-2">
@@ -42,12 +43,12 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
         </div>
       </div>
       <h4 className="text-4xl font-bold pb-3">{title}</h4>
-      <p className="font-semibold text-zinc-400">
+      <p className="font-semibold text-zinc-400 mb-2">
         {" "}
         #{hashtags[0]}, #{hashtags[1]}
       </p>
       <button
-        onClick={ () => handleMarkAsRead(reading_times)}
+        onClick={ () => handleMarkAsRead(id, reading_times)}
         className="text-violet-700 px-6 py-3 bg-violet-200"
       >
         Mark As Read
