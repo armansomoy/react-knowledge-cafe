@@ -1,10 +1,12 @@
 import React from "react";
+import profile from '../../images/profile.png'
 
 const Header = () => {
   return (
-    <div>
+    <header className="flex justify-between items-center p-4 m-4 border-b-2">
       <h2 className="text-4xl font-bold">Tailwind</h2>
-    </div>
+      <img src={profile} alt="" />
+    </header>
   );
 };
 
